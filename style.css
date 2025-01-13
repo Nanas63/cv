@@ -40,12 +40,7 @@ text-align: center;
 header{
     background-image: url(images/background3.jpeg)
 }
-@media (max-width : 550px){
-    .coordonnees {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
 
  h2{
     font-size: 25px;
@@ -82,4 +77,19 @@ button {
     align-items: center;
     width: auto;
     height: auto ;
+}
+
+
+@media (max-width : 900px) {
+    .box {
+        display:none;
+    }
+}
+
+
+@media (max-width : 550px){
+    .coordonnees, button {
+        flex-direction: column;
+        align-content: center;
+    }
 }
