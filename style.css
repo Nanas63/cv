@@ -42,6 +42,44 @@ header{
 }
 @media (max-width : 550px){
     .coordonnees {
-        flex-direction:column;
+        flex-direction: column;
+        align-items: center;
     }
+}
+
+ h2{
+    font-size: 25px;
+ }
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    /* border: solid; */
+    /* border-radius: 20px; */
+    margin-top: 30px;
+  }
+
+.button-container {
+    margin-top: 30px;
+    margin-left: 30vh;
+
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.langages{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: auto ;
 }

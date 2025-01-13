@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cv-en-ligne">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -25,7 +26,7 @@
                     <p><box-icon name="building-house" class="color"></box-icon>32 rue de la limagne Pontmort<br>
                         63200 Chambaron sur morge 
                     </p>
-                    <p><box-icon name="briefcase-alt" class="color"></box-icon>Apprenante Développeuse web et web mobile<a class=couleur href="https://www.simplon.co"> Simplon</a>
+                    <p><box-icon name="briefcase-alt" a class="color"></box-icon>Apprenante Développeuse web et web mobile<a class=couleur href="https://www.simplon.co"> Simplon</a>
                     </p>
                     <p>44 ans
                     </p>
@@ -35,19 +36,128 @@
                 <div class="box"></div>
             </div>
     </header>
-    <!-- <main>
-        <section>
-            <h2>Compétences techniques</h2>
-        </section>
 
-        <section>
-            <h2>Expériences Professionnelles</h2>
-        </section>
+    <!-- fin de v1 Git -->
+    <main>
+        <div class="wrapper">
+            <section>
+                <div class="description">
+                    <h2>A propos</h2>
+                </div>
+            </section>
 
-        <section>
-            <h2>Contact</h2>
-        </section> -->
+            <section>
+                <div class="box2">
+                    <p>En pleine reconversion professionnelle, après plus de 15 ans dans le commerce je suis actuellement en formation "Développeuse Web et Web mobile"<br>
+                        De formation initiale commerciale, la satisfaction client est une priorité.
+                        En pleine transition, dotée d’une forte sensibilité commerciale, j'explore aujourd'hui le métier de développeuse web.
+                        Dans ce cadre je recherche un stage du 19/05/25 au 30/07/25
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div class="competences">
+                    <h2>Hard Skills</h2><br><br>
+                    <h2>Soft Skills</h2>
+                </div>
+            </section>
+
+            <section>
+                <div class="langages">
+                    <div class="box3"></div>
+                        <p>HTML/CSS : <meter min="0" max="20"
+                            value="5">15</meter>
+                        </p>
+                        
+                    <div class="box7"></div>
+                        <p>JAVASCRIPT : <meter min="0" max="20"
+                            value="2">15</meter>
+                        </p>
+
+                    <div class="box8"></div>
+                        <p>PHP : <meter min="0" max="20"
+                        value="0">15</meter>
+                        </p>
+
+                    <div class="box9"></div>
+                        <p>SQL : <meter min="0" max="20"
+                        value="0">15</meter>
+                        </p>
+
+                    <div class="box10"></div>
+                        <p>WORDPRESS : <meter min="0" max="20"
+                        value="5">15</meter>
+                        </p>
+
+                    <div class="box11"></div>
+                        <p>VEILLE DOCUMENTAIRE : <meter min="0" max="20"
+                        value="18">15</meter>
+                        </p>
+                </div>
+                <div class="Soft Skills">
+                    <ul>
+                        <li>Rigeur</li>
+                        <li>Fiabilité</li>
+                        <li>Ecoute</li>
+                        <li>Honneteté</li>
+                        <li>Capacité d'adaptation</li>
+                        <li>Esprit critique</li>
+                        <li>Empathie</li>
+                        <li>Persévérance</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div class="Experiences">
+                    <h2>Expériences Professionnelles</h2>
+                </div>
+            </section>
+
+            <section>
+                <div class="box4"></div>
+                
+                <div class="button-container">
+                    <button id="button2">C'est ici</button>
+                    <div id="text2" style="display: none;">
+                      
+
+                        <p> 24-06-2024 à 05-07-2024 <b>10 jours</b><br>
+                            INCLU PRO 2<br>
+                            Stage découverte métiers du digital<br>
+                            (utilisation du CMS Wordpress)<br>
+                            Télétravail 70h Groupe WOOD&CO<br>
+                        </p>
+                        
+                        <p> 03-2018 à 11-2023 <b>5 ans 1/2</b><br>
+                            Libraire responsable rayons<br>
+                            Littérature/polar/sciences humaines<br>
+                            Scop Librairie Horizons Riom<br><br>
+
+                            10-2008 à 02-2018 <b>10 ans</b><br>
+                            Libraire responsable rayons jeunesse/BD<br>
+                            Librairie Horizons Riom<br>
+                        </p>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>   
+    </main>
         
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>  
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    
+    <script>
+    document.getElementById('button2').addEventListener('click', function() {
+        const text2 = document.getElementById('text2');
+        if (text2.style.display === 'none') {
+            text2.style.display = 'block';
+        } else {
+            text2.style.display = 'none';
+        }
+    });
+    </script>
 </body>
 </html>
