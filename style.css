@@ -55,21 +55,34 @@ header{
 
 .button-container {
     margin-top: 30px;
-    margin-left: 30vh;
+    /* margin-left: 30vh; */
+    color: green;
+    border: 50px;
 
 }
 button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
     cursor: pointer;
+    color: green;
+    margin-left: 20px;
+    border-radius: 20px;
+    border-color: #5CB338;
+    border-width: 10px;
+    margin-bottom: 30px;
 }
-
+.couleur{
+    color: green;
+}
 .text {
     margin-top: 10px;
     font-size: 14px;
     color: #333;
 }
-
+#text2{
+    color: green;
+}
 .langages{
     display : flex;
     flex-wrap: wrap;
